@@ -1,0 +1,43 @@
+<%- include('partials/header') %>
+
+<div class="container-fluid">
+    <nav class="navbar navbar-light bg-light fixed-top">
+      <a class="navbar-brand" href="#">      
+        <h2><i class="fas fa-paper-plane "></i> Do-Mail</h2>
+      </a>
+  
+      <form class="form-inline">
+        <a class="btn btn-outline-dark" href="/logout" role="button">Log Out</a>
+        
+      </form>
+    </nav>
+  </div>
+  
+    
+    
+    <!-- The sidebar -->
+  <div class="sidebar">
+    <a class="btn btn-dark submit-btn" href="/compose" role="button">Compose</a>
+    <a href="/mails">Recieved</a>
+    <a href="#contact">Sent</a>
+    <a href="/about" class="active">About</a>
+  </div>
+  
+  <!-- Page content -->
+  <div class="content">
+
+        <div class="container fluid mail-box">
+            <div class="jumbotron">
+                <h2 class="display-4">About</h2>
+                <hr class="my-4">
+                <div class="container">
+                    <p>Developed by Aravind.</p>
+                    <p> For more details contact support@domail.com</p>
+                </div>
+
+            </div>
+        </div>
+
+
+    </div>
+<%- include('partials/footer') %>
